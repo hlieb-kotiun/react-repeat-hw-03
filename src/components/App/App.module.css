@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 620px;
+  min-height: 600px;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.title {
+  margin-bottom: 23px;
+}
