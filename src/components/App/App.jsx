@@ -48,6 +48,7 @@ function App() {
       ) : (
         <p>There is no contacts yet!</p>
       )}
+      {filteredContacts.length === 0 && <p>There is no matches!</p>}
       <ContactList handleDelete={handleDelete} contacts={filteredContacts} />
     </div>
   );
