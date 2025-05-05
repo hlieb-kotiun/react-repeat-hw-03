@@ -1,12 +1,20 @@
-# React + Vite
+📱 Contact Book
+This is a simple React application for storing phone contacts. It allows users to add, search, delete contacts, and save them in the browser’s local storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+✅ Display a list of contacts
+✅ Search contacts by name (case-insensitive)
+✅ Add new contacts using a form with validation (Formik + Yup)
+✅ Delete contacts
+✅ Persist data in localStorage (keeps data after page reload)
 
-Currently, two official plugins are available:
+🛠️ Technologies Used
+React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Formik (form handling)
 
-## Expanding the ESLint configuration
+Yup (validation)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+nanoid (unique ID generation)
+
+localStorage (data persistence)
